@@ -124,6 +124,14 @@ throttling: {
 // No special config needed
 ```
 
+## AI Analysis (Optional)
+
+1. Get a free API key at https://console.groq.com
+2. Create frontend/.env
+3. Add: VITE_GROQ_API_KEY=your_key_here
+4. Restart the frontend server
+
+
 ---
 
 ## Tips
