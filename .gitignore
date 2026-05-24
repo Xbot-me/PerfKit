@@ -141,3 +141,14 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+
+# Databases
+*.db
+
+# Screenshots
+screenshots/
+
+# Build files
+dist/
+build/

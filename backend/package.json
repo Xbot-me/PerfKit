@@ -1,0 +1,20 @@
+{
+  "name": "perfkit-backend",
+  "version": "1.0.0",
+  "description": "PerfKit local performance analyzer backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "chrome-har": "^0.13.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "lighthouse": "^11.6.0",
+    "puppeteer": "^21.11.0",
+    "uuid": "^9.0.0",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
