@@ -1,7 +1,7 @@
 # PerfKit — Local Performance Analyzer
 
 A private, local GTmetrix-style website performance analyzer.  
-Runs 100% on your machine. No API keys, no rate limits, no data sent anywhere.
+Runs 100% on your machine. Optional AI analysis via Groq (free tier). No data sent anywhere except for AI analysis.
 
 ---
 
@@ -16,6 +16,7 @@ Runs 100% on your machine. No API keys, no rate limits, no data sent anywhere.
 | Full screenshot | Final rendered page capture |
 | Audit recommendations | Prioritized list with estimated savings (ms / bytes) |
 | History & trends | SQLite-stored runs, line charts per URL over time |
+| AI Analysis | Groq-powered expert summary with prioritized recommendations, quick wins, and Web Vitals explanations |
 
 ---
 
@@ -32,7 +33,8 @@ Runs 100% on your machine. No API keys, no rate limits, no data sent anywhere.
 - **Node.js 20 LTS** — https://nodejs.org (LTS version)
 - **Google Chrome** — already installed on most Windows machines
 - **Windows 10/11**
-
+- Groq API key (optional) — free at console.groq.com — only needed for AI Analysis tab
+  
 ---
 
 ## Quick Start
@@ -177,5 +179,6 @@ throttling: {
 - **Frontend:** React 18, Vite 5, Recharts, React Router
 - **Database:** SQLite (zero-config, single file)
 - **Fonts:** Syne + IBM Plex Mono
+  
 
-All open source. No telemetry. No external API calls.
+All open source. No telemetry. Core analysis is fully local. AI Analysis optionally calls Groq API.
