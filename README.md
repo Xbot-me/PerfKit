@@ -19,6 +19,14 @@ Runs 100% on your machine. No API keys, no rate limits, no data sent anywhere.
 
 ---
 
+## Screenshots
+
+<img width="1870" height="919" alt="ss1" src="https://github.com/user-attachments/assets/3fffc235-81ab-435f-8df5-3f0f99bc33c3" />
+<img width="1870" height="919" alt="ss2" src="https://github.com/user-attachments/assets/4dafc6d7-caaf-4045-80a8-486d7228bbb5" />
+<img width="1870" height="919" alt="ss3" src="https://github.com/user-attachments/assets/9bba5f56-3e2f-403f-b821-59ea307b83f7" />
+<img width="1870" height="919" alt="ss4" src="https://github.com/user-attachments/assets/7965e249-9f68-4b93-986c-8e1acfa0d19b" />
+
+
 ## Requirements
 
 - **Node.js 20 LTS** — https://nodejs.org (LTS version)
